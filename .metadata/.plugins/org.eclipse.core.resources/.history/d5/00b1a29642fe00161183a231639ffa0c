@@ -1,0 +1,6 @@
+package com.example;
+
+@Component
+public class ServerLocationImp implements ServerLocation{
+
+}

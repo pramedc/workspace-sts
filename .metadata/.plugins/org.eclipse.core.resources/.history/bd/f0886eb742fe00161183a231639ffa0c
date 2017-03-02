@@ -1,0 +1,9 @@
+package com.example;
+
+@Component
+public class ServerLocationImp implements ServerLocation{
+	@Override
+	public ServerLocation getLocation(String ipAddress){
+		
+	}
+}

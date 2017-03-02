@@ -1,0 +1,13 @@
+package com.example;
+
+import org.springframework.*;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class welcomeController {
+
+	@RequestMapping("welcome")
+	public String welcome(){
+		return "This is great!";
+	}
+}

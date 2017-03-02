@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StringHelperTest" project="JunitCourse" tests="5" started="5" failures="0" errors="1" ignored="0">
+  <testsuite name="hello.StringHelperTest" time="0.008">
+    <testcase name="testTruncateInFirst2Positions2" classname="hello.StringHelperTest" time="0.0"/>
+    <testcase name="testSort_Performance" classname="hello.StringHelperTest" time="0.0">
+      <error>org.junit.runners.model.TestTimedOutException: test timed out after 10 milliseconds
+	at java.util.Arrays.sort(Arrays.java:144)
+	at hello.StringHelperTest.testSort_Performance(StringHelperTest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:745)
+
+</error>
+    </testcase>
+    <testcase name="testAre" classname="hello.StringHelperTest" time="0.007"/>
+    <testcase name="testArraySort_NullArray" classname="hello.StringHelperTest" time="0.0"/>
+    <testcase name="testTruncateInFirst2Positions" classname="hello.StringHelperTest" time="0.001"/>
+  </testsuite>
+</testrun>

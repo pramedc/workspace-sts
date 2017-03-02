@@ -1,0 +1,11 @@
+package com.example;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class WelcomeController {
+
+	public String welcome(){
+		return "This is great!";
+	}
+}

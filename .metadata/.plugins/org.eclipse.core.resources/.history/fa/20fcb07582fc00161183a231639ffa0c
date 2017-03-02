@@ -1,0 +1,43 @@
+package hello;
+
+import static org.junit.Assert.*;
+
+import java.util.Arrays;
+
+import org.junit.Test;
+
+public class StringHelperTest {
+
+	public StringHelper helper =  new StringHelper();
+
+	@Test
+	public void testTruncateInFirst2Positions() {
+		//StringHelper helper =  new StringHelper();
+		assertEquals("CD", helper.truncateAInFirst2Positions("AACD"));
+				
+	}
+	
+	@Test
+	public void testTruncateInFirst2Positions2() {
+		//StringHelper helper =  new StringHelper();
+		assertEquals("CD", helper.truncateAInFirst2Positions("ACD"));
+				
+	}
+	
+	@Test
+	public void testAre(){
+		boolean actualValue = helper.areFirstAndLastTwoCharactersTheSame("ABCD");
+		assertFalse(actualValue);
+	}
+
+	@Test
+	public void testArraySort_NullArray(){
+		int[] numbers = null;
+		try{
+			Arrays.sort(numbers);
+		} catch (NullPointerException e){
+			
+		}
+	}
+	
+}

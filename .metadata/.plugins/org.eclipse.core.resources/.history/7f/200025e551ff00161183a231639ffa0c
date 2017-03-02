@@ -1,0 +1,16 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "I am testing this string functions";
+		
+		String[] strArray = str.split(" ");// StringUtils.split(str," ");
+		System.out.println(str + " ; length: " + strArray.length);
+		
+		
+
+	}
+
+}

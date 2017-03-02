@@ -1,0 +1,12 @@
+package com.example;
+
+import org.springframework.web.bind
+
+@RestController
+public class welcomeController {
+
+	@RequestMapping("welcome")
+	public String welcome(){
+		return "This is great!";
+	}
+}

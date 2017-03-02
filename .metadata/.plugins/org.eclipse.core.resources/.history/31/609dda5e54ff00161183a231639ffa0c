@@ -1,0 +1,39 @@
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "I am testing this string functions";
+		
+		String[] strArray = str.split(" ");// StringUtils.split(str," ");
+		char[] charArray = str.toCharArray();
+		System.out.println(str + " ; words " + strArray.length + " ; char :" + charArray.length);
+		
+		Map charMap = new HashMap();
+		Set setA = new HashSet();
+		int start = 0;
+		try{
+			for(int i=0; i<charArray.length; i++){
+				start = i;
+				if(setA.contains(charArray[i])){
+					System.out.println("contains: " charArray[i]);
+				}
+				setA.add(charArray[i]);
+			}			
+		} catch (Exception e){
+			System.out.println("i: " + start);
+		}
+
+		
+		
+		
+		
+
+	}
+
+}

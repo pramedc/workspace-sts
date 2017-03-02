@@ -1,0 +1,7 @@
+package com.example;
+
+public class WelcomeService {
+	public String retrieveWelcomeMessage(){
+		return "Good Morning! at 8 PM";
+	}
+}

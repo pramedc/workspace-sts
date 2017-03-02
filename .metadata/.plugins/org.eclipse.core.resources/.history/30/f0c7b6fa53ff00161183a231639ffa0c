@@ -1,0 +1,30 @@
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "I am testing this string functions";
+		
+		String[] strArray = str.split(" ");// StringUtils.split(str," ");
+		char[] charArray = str.toCharArray();
+		System.out.println(str + " ; words " + strArray.length + " ; char :" + charArray.length);
+		
+		Map charMap = new HashMap();
+		Set setA = new HashSet();
+		
+		for(int i=0; i<charArray.length; i++){
+			setA.add(charArray[i]);
+		}
+		
+		
+		
+		
+
+	}
+
+}

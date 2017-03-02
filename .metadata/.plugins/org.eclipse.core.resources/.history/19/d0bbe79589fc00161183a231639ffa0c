@@ -1,0 +1,52 @@
+package hello;
+
+import static org.junit.Assert.*;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
+@RunWith(Parameterized.class)
+public class StringHelperTest {
+
+	public StringHelper helper =  new StringHelper();
+
+	@Test
+	public void testTruncateInFirst2Positions() {
+		//StringHelper helper =  new StringHelper();
+		assertEquals("CD", helper.truncateAInFirst2Positions("AACD"));
+				
+	}
+	
+	@Test
+	public void testTruncateInFirst2Positions2() {
+		//StringHelper helper =  new StringHelper();
+		assertEquals("CD", helper.truncateAInFirst2Positions("ACD"));
+				
+	}
+	
+	@Test
+	public void testAre(){
+		boolean actualValue = helper.areFirstAndLastTwoCharactersTheSame("ABCD");
+		assertFalse(actualValue);
+	}
+
+	@Test(expected=NullPointerException.class)
+	public void testArraySort_NullArray(){
+		int[] numbers = null;
+		Arrays.sort(numbers);
+	}
+	
+	@Test(timeout=60)
+	public void testSort_Performance(){
+		int array[] = {12,23,4};
+		for(int i=1;i<1000000;i++){
+			array[0] = i;
+			Arrays.sort(array);
+		}
+	}
+	
+}

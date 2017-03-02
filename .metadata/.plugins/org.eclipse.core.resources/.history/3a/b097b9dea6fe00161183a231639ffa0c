@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+    <title>Getting Started: Serving Web Content</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+       <style type="text/css">
+      #map {
+        height: 100%;
+      }
+     
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSxP2pn86Z3Gs7kLW3zz8pB957XcKW0_I&&callback=initMap"
+    async defer></script>
+</head>
+<body>
+    <p>Get your greeting <a href="/greeting">here</a></p>
+</body>
+</html>

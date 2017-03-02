@@ -1,0 +1,11 @@
+package com.example;
+
+
+@RestController
+public class welcomeController {
+
+	@RequestMapping("welcome")
+	public String welcome(){
+		return "This is great!";
+	}
+}

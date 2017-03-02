@@ -1,0 +1,10 @@
+package com.example;
+
+
+@RestController
+public class welcomeController {
+
+	public String welcome(){
+		return "This is great!";
+	}
+}

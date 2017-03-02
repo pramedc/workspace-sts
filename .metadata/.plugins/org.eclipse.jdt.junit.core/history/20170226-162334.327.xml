@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StringHelperTest" project="JunitCourse" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="hello.StringHelperTest" time="0.004">
+    <testcase name="testTruncateInFirst2Positions2" classname="hello.StringHelperTest" time="0.0"/>
+    <testcase name="testSort_Performance" classname="hello.StringHelperTest" time="0.003"/>
+    <testcase name="testAre" classname="hello.StringHelperTest" time="0.0"/>
+    <testcase name="testArraySort_NullArray" classname="hello.StringHelperTest" time="0.0"/>
+    <testcase name="testTruncateInFirst2Positions" classname="hello.StringHelperTest" time="0.001"/>
+  </testsuite>
+</testrun>

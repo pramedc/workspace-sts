@@ -1,0 +1,30 @@
+package hello;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StringHelperTest {
+
+	public StringHelper helper =  new StringHelper();
+
+	@Test
+	public void testTruncateInFirst2Positions() {
+		//StringHelper helper =  new StringHelper();
+		assertEquals("CD", helper.truncateAInFirst2Positions("AACD"));
+				
+	}
+	
+	@Test
+	public void testTruncateInFirst2Positions2() {
+		//StringHelper helper =  new StringHelper();
+		assertEquals("CD", helper.truncateAInFirst2Positions("ACD"));
+				
+	}
+	
+	@Test
+	public void testAre(){
+		assertEquals("")
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.example;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringMvcSqlApplication {
+	@Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(WebApplication.class);
+    }
+	public static void main(String[] args) {
+		SpringApplication.run(SpringMvcSqlApplication.class, args);
+	}
+}

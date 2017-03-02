@@ -1,0 +1,12 @@
+package com.example;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class TestController {
+
+	@RequestMapping("/demo")
+	public String demo(){
+		return "test";
+	}
+}
